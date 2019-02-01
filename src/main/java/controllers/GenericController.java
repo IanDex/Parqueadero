@@ -182,8 +182,8 @@ public class GenericController {
         return resList;
 	}
 	
-	public long obtenerDiaSemana(Date fecha,Date fSalida,Time time, Time time2){
-		long valor = 0;
+	public double obtenerDiaSemana(Date fecha,Date fSalida,Time time, Time time2){
+		double valor = 0;
 		System.out.println(time + "  " + time2);
 		Calendar c = Calendar.getInstance();
 		Calendar s = Calendar.getInstance();

@@ -11,7 +11,7 @@ public class Conexion {
     	
     	try {
 	    	if(System.getProperty("com.google.appengine.runtime.version").startsWith("Google App Engine/")) {
-	    		cn = DriverManager.getConnection("jdbc:google:mysql://modified-wonder-87620:prueba-telefonicacorp/formularios_telefonica?user=root");
+	    		cn = DriverManager.getConnection("jdbc:google:mysql://modified-wonder-87620:prueba-telefonicacorp/java_mysql?user=root");
 	    	}
 	    	
 	    	else {

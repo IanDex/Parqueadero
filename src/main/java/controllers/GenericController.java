@@ -203,33 +203,33 @@ public class GenericController {
 			//Esto no se hace asi Por tiempo tengo este desorden pero lo puedo optimizar mejor
 			if(diaE == 2) {
 				if(tiempoInicial >= 46800000 && tiempoFinal <= 86400000) {
-					valor = valor + ((resta*70)/100);
+					valor = valor + ((resta*70));
 				}else if(tiempoInicial <= 46800000 && tiempoFinal >= 86400000) {
-					valor = valor + ((resta*40)/100);
+					valor = valor + ((resta*40));
 				}
 			}if(diaE == 3) {
 				if(tiempoInicial >= 46800000 && tiempoFinal <= 86400000) {
-					valor = valor + ((resta*70)/100);
+					valor = valor + ((resta*70));
 				}else if(tiempoInicial <= 46800000 && tiempoFinal >= 86400000) {
-					valor = valor + ((resta*40)/100);
+					valor = valor + ((resta*40));
 				}
 			}if(diaE == 4) {
 				if(tiempoInicial >= 46800000 && tiempoFinal <= 86400000) {
-					valor = valor + ((resta*70)/100);
+					valor = valor + ((resta*70));
 				}else if(tiempoInicial <= 46800000 && tiempoFinal >= 86400000) {
-					valor = valor + ((resta*40)/100);
+					valor = valor + ((resta*40));
 				}
 			}if(diaE == 5) {
 				if(tiempoInicial >= 46800000 && tiempoFinal <= 86400000) {
-					valor = valor + ((resta*70)/100);
+					valor = valor + ((resta*70));
 				}if(tiempoInicial <= 46800000 && tiempoFinal >= 86400000) {
-					valor = valor + ((resta*40)/100);
+					valor = valor + ((resta*40));
 				}
 			}if(diaE == 6) {
 				if(tiempoInicial >= 46800000 && tiempoFinal <= 86400000) {
-					valor = valor + ((resta*70)/100);
+					valor = valor + ((resta*70));
 				}else if(tiempoInicial <= 46800000 && tiempoFinal >= 86400000) {
-					valor = valor + ((resta*40)/100);
+					valor = valor + ((resta*40));
 				}
 			}if(diaE == 7) {
 				valor = (valor + 8000);
